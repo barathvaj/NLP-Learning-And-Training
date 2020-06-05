@@ -3,4 +3,4 @@
 Objective here is to explore the concepts of natural language processing and implement it from scratch and using pytorch. 
 The code for each section in agenda will be posted each week.
 
-**Agenda:**   [Schedule](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Agenda.html)
+**Agenda:**   [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vRUKQjc-KC9A639-4cso1ZjWVLbk1JozwmdsU8txZRgitRAubHn6CWB0OqgkYqBOOEXgqVSYKCnat8L/pubhtml)
