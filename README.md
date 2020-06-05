@@ -4,3 +4,13 @@ Objective here is to explore the concepts of natural language processing and imp
 The code for each section in agenda will be posted each week.
 
 **Agenda:**   [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vRUKQjc-KC9A639-4cso1ZjWVLbk1JozwmdsU8txZRgitRAubHn6CWB0OqgkYqBOOEXgqVSYKCnat8L/pubhtml)
+
+
+# Content of Learning
+
+- [__Installation & Basics__](./Installation and Basics)
+  - Numpy, Pandas and Pytorch Tensor
+  - Exercise
+
+
+    

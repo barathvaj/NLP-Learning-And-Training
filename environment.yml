@@ -1,0 +1,22 @@
+name: nlplearnenv
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - pillow
+  - pip
+  - plotly
+  - scikit-learn
+  - seaborn
+  - python>=3.7.3
+  - jupyter
+  - pytorch
+  - torchvision
+  - spacy
+  - scipy
+  - path.py
+  
+  
