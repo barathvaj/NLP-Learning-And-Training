@@ -8,9 +8,7 @@ The code for each section in agenda will be posted each week.
 
 # Content of Learning
 
-- [__Installation & Basics__](./Installation and Basics)
-  - Numpy, Pandas and Pytorch Tensor
-  - Exercise
+[__Installation & Basics__](https://github.com/barathvaj/NLP-Learning-And-Training/tree/master/Installation%20and%20Basics)
 
-
-    
+- Numpy, Pandas and Pytorch Tensor
+- Exercise
