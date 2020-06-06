@@ -12,7 +12,12 @@ conda env create -f environment.yml
 conda activate nlplearnenv
 jupyter notebook
 ```
-	
+
+# Numpy - Numerical Processing Library that can efficiently handle large datasets stored as arrays
+
+- [Numpy Basics]() - Arrays, Slicing, Indexing, Operations
+- [Numpy Exercises]() - To familize by practicing the concept learnt
+- [Numpy Exercises With Solution]() - To review the practised solution with the Problems
 	
 	
  
