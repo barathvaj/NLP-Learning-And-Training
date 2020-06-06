@@ -13,7 +13,7 @@ conda activate nlplearnenv
 jupyter notebook
 ```
 
-# Numpy - Numerical Processing Library that can efficiently handle large datasets stored as arrays
+# Numpy - Numerical Processing Library handles large datasets stored as arrays effeciently
 
 - [Numpy Basics](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Installation%20and%20Basics/Numpy%20Basics.ipynb) - Arrays, Slicing, Indexing, Operations
 - [Numpy Exercises](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Installation%20and%20Basics/Numpy-Exercises.ipynb) - To familize by practicing the concept learnt
