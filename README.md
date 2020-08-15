@@ -12,3 +12,4 @@ The code for each section in agenda will be posted each week.
 
 - Numpy, Pandas and Pytorch Tensor
 - Exercise
+- Machine Learning Basics
