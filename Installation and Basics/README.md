@@ -26,6 +26,21 @@ jupyter notebook
 - [Pytorch Basics](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Installation%20and%20Basics/Pytorch%20Basics%20Exercises.ipynb) - To familize by practicing the concept learnt
 - [Pytorch Basics With Solutions](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Installation%20and%20Basics/Pytorch%20Basics%20Exercises%20-%20With%20Solutions.ipynb) - To familize by practicing the concept learnt
 - [Pytorch Cuda - Basics](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Installation%20and%20Basics/Pytorch-Cuda.ipynb) - Basic Operations of tensor with CUDA
- 
+# Machine Learning Basics
+
+In my words, automated way to find hidden patterns from historical data and with that it arrives decisions for the present or future. Since we are much focused in text processing here, let see some examples related to that scenario
+
+Examples - Text Classification, Topic modeling, Text Sentiment analysis, Entity extraction, Machine translation.
+
+Two Types
+
+1) Supervised Learning
+   -- Labeled Data - Means for each set of input we already knows the desired outcome is
+   
+   For Example - Text classification by topic, Postive vs negative movie review
+   --to be continued
+        
+   
+  
   
     
