@@ -61,7 +61,7 @@ Two Types
        - Evaluate model with test set , approximation in real world. 
      
      
-   
+  ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/ML_process.png) 
   
   
     
