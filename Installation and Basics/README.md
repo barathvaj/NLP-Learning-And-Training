@@ -38,8 +38,23 @@ Two Types
    -- Labeled Data - Means for each set of input we already knows the desired outcome is
    
    For Example - Text classification by topic, Postive vs negative movie review
-   --to be continued
-        
+   
+   Machine Learning Process
+   
+   1) Data collection
+      -  Include only the data which contributes to model outcome       
+   2) Data Preparation
+      -  Cleaning data(removing duplicates, augmentation, deal with missing values, data normalization)
+      -  visualize data and class imbalances
+      -  Data split - Train, Validataion and Test Set
+   3) Select a Algorithm
+      -  With some exploration i am biased towards a neural network here(experiment with pretrained/custom models), and any decision tree algorithm. The neutral networks which simply outbeats the traditional machine learning alogrithms.
+   4)  Model Training
+       - It is iterative process, each iteration it try to adjust it weights to maximize the prediction
+   5) Model Evaluation
+       - At each iteration, model get evalauted in both training and validation set. The ultimate goal is to reach maximum accuracy by balancing it between training and validation set. I mean prevent underfitting vs overfitting. 
+       - How we evaluate the model perfromance it differs between classification and regression. 
+       - 
    
   
   
