@@ -54,7 +54,13 @@ Two Types
    5) Model Evaluation
        - At each iteration, model get evalauted in both training and validation set. The ultimate goal is to reach maximum accuracy by balancing it between training and validation set. I mean prevent underfitting vs overfitting. 
        - How we evaluate the model perfromance it differs between classification and regression. 
-       - 
+   6) Model Tuning
+       - Tune the model parameters to increase it parameters. 
+       - For example: Changing learning rate or having different learning rate for each layer group, adding a regularization factor etc.
+    7) Model Prediction
+       - Evaluate model with test set , approximation in real world. 
+     
+     
    
   
   
