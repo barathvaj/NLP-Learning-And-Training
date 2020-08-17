@@ -71,7 +71,8 @@ Two Types
   -   Model fits too much with the training set, it leads to low error in training set and high errors in validation/test sets. It is because model not able to genralize instead it memorizes the data.
   -   One way to fix here is to use to reduce the input data(reduced features etc,) and increase regularization factor.
   -   Increase in error in test set and error in training set still going down, a better point to stop the training process
+  
   Underfitting
   -   Model not captured the enough patterns from training set results in high training error. 
-  -   Collect more sample, data augementation, increased iteration helps in fix the same
+  -   Collect more samples, data augementation, increased iteration helps in fix the same
   
