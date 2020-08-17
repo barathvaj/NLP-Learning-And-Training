@@ -119,7 +119,7 @@ Generally in this case we will have addition step performed by medical expert to
  #### Regression Metrics
  Model which used to predict continuous values like for example predicting the sales price, property value. 
  
- ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/regmatrix.jpg)  
+ ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/regmatrix.JPG)  
  
  ##### Mean Absolute Error
  - Absolute value of average of differences between Actual value and predictions. 
