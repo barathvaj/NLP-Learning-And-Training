@@ -115,3 +115,21 @@ F1 Score
 
 It all depends on the situation, which takes a lead or usage of F! score is optimal. For example let's take a example of diagnosing whether patient has cancer or not. I will prefer taking precision over recall here because identiying the patient with cancer as not an cancer is more severe than identifying the patient with no cancer as cancer. 
 Generally in this case we will have addition step performed by medical expert to confirm the state. 
+
+ #### Regression Metrics
+ Model which used to predict continuous values like for example predicting the sales price, property value. 
+ 
+ ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/regmatrix.jpg)  
+ 
+ ##### Mean Absolute Error
+ - Absolute value of average of differences between Actual value and predictions. 
+ - The problem here , it not punishes the large differences. 
+ 
+ ##### Mean Squared Error
+ - Here larger error will be more punished, since we taking square of difference here
+ - It is nothing but a Square of average of differences between Actual value and predictions
+ - difficult to intepret , since it is different metrics as y, since it gives equal to y square.
+ 
+ ##### Root Mean Squared Error
+ - It is root of Mean squared error, it punishes the large difference also it also equates to the same unit as y. 
+ 
