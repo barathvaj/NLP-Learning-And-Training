@@ -92,7 +92,7 @@ Say we got 100 reviews for moview , out of 100 it able to predict right for 90 o
 The problem here it works well with the balanced set, i mean if you get 80 postive reviews and 20 negative reviews. It able to predict all positve reviews and none of negative reviews yields 80% accuracy. It is not suited for the unbalanced set scenario like above.  
 
 ###### Confusion Matrix (Precision vs Recall)
-   ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/conmatrix.png) 
+   ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/conmatrix.jpg) 
    
    There are 4 important metrics below, it helps to arrive with the precision and recall metrics
    True Positive(TP) - Model correctly predicts the positive class
