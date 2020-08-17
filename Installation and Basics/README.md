@@ -115,6 +115,8 @@ F1 Score
 
 Let me giva a scenario where i choosed Precision over a recall in my prior experience. 
 
-Earlier i have worked in the document classifcation, where i need to classify the document type first to extract relevent data from it. 
+Earlier i have worked in the document classifcation, where i need to classify the document type first to extract relevent data from it. If the model not able to classify it(less confidence score) will move to manual process, else it move to the extraction process. 
+
+
 
 --tobe conitnued
