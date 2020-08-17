@@ -113,10 +113,5 @@ F1 Score
 -  Formulated by 2*(precision*recall)/(precision+recall)
 -  It punishes the extreme difference between precision and recall, say for ex: your recall is 1.0 and precision is 0.0. it you just take a simple average it gives you 0.5, but f1 score gives you the value 0. 
 
-Let me giva a scenario where i choosed Precision over a recall in my prior experience. 
-
-Earlier i have worked in the document classifcation, where i need to classify the document type first to extract relevent data from it. If the model not able to classify it(less confidence score) will move to manual process, else it move to the extraction process. 
-
-
-
---tobe conitnued
+It all depends on the situation, which takes a lead or usage of F! score is optimal. For example let's take a example of diagnosing whether patient has cancer or not. I will prefer taking precision over recall here because identiying the patient with cancer as not an cancer is more severe than identifying the patient with no cancer as cancer. 
+Generally in this case we will have addition step performed by medical expert to confirm the state. 
