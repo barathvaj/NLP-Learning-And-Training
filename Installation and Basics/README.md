@@ -133,3 +133,13 @@ Generally in this case we will have addition step performed by medical expert to
  ##### Root Mean Squared Error
  - It is root of Mean squared error, it punishes the large difference also it also equates to the same unit as y. 
  
+## UnSupervised Learning
+
+When we don't have labels/outcomes and it falls under unsupervised learning. 
+
+### Clustering
+-  Grouping the similar data points together which helps identify different categories with in the dataset.
+
+### Dimension Reduction
+Reduces number of features in dataset either for compression or proper visualization of trends in historical data
+
