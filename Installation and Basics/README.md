@@ -34,8 +34,8 @@ Examples - Text Classification, Topic modeling, Text Sentiment analysis, Entity 
 
 Two Types
 
-1) Supervised Learning
-   -- Labeled Data - Means for each set of input we already knows the desired outcome is
+## Supervised Learning
+   Labeled Data - Means for each set of input we already knows the desired outcome is
    
    For Example - Text classification by topic, Postive vs negative movie review
    
@@ -63,7 +63,7 @@ Two Types
      
   ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/ML_process.png) 
   
-## Overfitting vs Underfitting
+### Overfitting vs Underfitting
   
    ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/overfit.png) 
   
@@ -76,3 +76,45 @@ Two Types
   -   Model not captured the enough patterns from training set results in high training error. 
   -   Collect more samples, data augementation, increased iteration helps in fix the same
   
+ ### Evaluation Metrics 
+ Let's dig little deeper into the evaluation metrics, let's try to apply the right metrics for 2 common problems Classification(classify a label/category for given input data) and  Regression(predicting the future continuos values). 
+ 
+ #### Classifcation Metrics
+There are 4 common ways to measure the classification metrics. Let's take an example, and describe the example with different metrics. 
+
+##### Movie review - Classify whether the review is postive or negative. 
+The example is simple binary classification. 
+
+###### Accuracy
+Say we got 100 reviews for moview , out of 100 it able to predict right for 90 of the reviews by saying postive or negative. It means it is 90% accurate. 
+- Accuracy = number of right predictions/Total number of predictions
+
+The problem here it works well with the balanced set, i mean if you get 80 postive reviews and 20 negative reviews. It able to predict all positve reviews and none of negative reviews yields 80% accuracy. It is not suited for the unbalanced set scenario like above.  
+
+###### Confusion Matrix (Precision vs Recall)
+   ![alt text](https://github.com/barathvaj/NLP-Learning-And-Training/blob/master/Images/conmatrix.png) 
+   
+   There are 4 important metrics below, it helps to arrive with the precision and recall metrics
+   True Positive(TP) - Model correctly predicts the positive class
+   True Negative(TN) - Model correctly predicts the negative class
+   False Positive(FP) - Model incorrectly predicts the positive class
+   False Negative(FN) - Model incorrectly predicts the negative class
+   
+Recall 
+- What proportion of actual positives was identified correctly - TP/TP+FN
+- It punishes the model which has false negative. I mean model without false negative will have high score.
+
+Precision 
+- What proportion of positive identifications was actually correct - TP/TP+FP 
+- It means it punishes the data with false positives. I mean model without false posives will have high score.
+
+F1 Score
+-  Genarally in realtime we tradeoff between the Precision and Recall. To get the balance between the both, we combine bith precision and recall metrics
+-  Formulated by 2*(precision*recall)/(precision+recall)
+-  It punishes the extreme difference between precision and recall, say for ex: your recall is 1.0 and precision is 0.0. it you just take a simple average it gives you 0.5, but f1 score gives you the value 0. 
+
+Let me giva a scenario where i choosed Precision over a recall in my prior experience. 
+
+Earlier i have worked in the document classifcation, where i need to classify the document type first to extract relevent data from it. 
+
+--tobe conitnued
