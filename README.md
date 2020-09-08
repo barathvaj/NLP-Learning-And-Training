@@ -13,3 +13,7 @@ The code for each section in agenda will be posted each week.
 - Numpy, Pandas and Pytorch Tensor
 - Exercise
 - Machine Learning Basics
+
+[__Artificial Neural Network__](https://github.com/barathvaj/NLP-Learning-And-Training/tree/master/ANN)
+
+- Theory
