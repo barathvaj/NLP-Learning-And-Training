@@ -16,4 +16,4 @@ The code for each section in agenda will be posted each week.
 
 [__Artificial Neural Network__](https://github.com/barathvaj/NLP-Learning-And-Training/tree/master/ANN)
 
-- Theory
+- Theory - Perceptron Model to Neural Network, Activation Functions, Cost Functions, Gradient Descent and Back Propogation
